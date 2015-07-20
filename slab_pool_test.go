@@ -6,7 +6,6 @@ modification history
 */
 /*
 DESCRIPTION
-    For more information, see BFE-Cache 2-004
 */
 package slab_pool
 
