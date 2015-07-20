@@ -1,4 +1,4 @@
-# slab-pool - yet another slab allocator in golang
+# slab-pool - yet another slab allocator
 
 # Usage
     // Create slab pool
@@ -20,7 +20,3 @@
 
 # License
 Apache License Version 2.0
-
-# Author
-jeffyang (iyangsj@gmail.com)
-
