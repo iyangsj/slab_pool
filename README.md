@@ -1,10 +1,11 @@
 # slab-pool 
+[![Coverage Status](https://coveralls.io/repos/jeffyang28/slab_pool/badge.svg?branch=master&service=github)](https://coveralls.io/github/jeffyang28/slab_pool?branch=master)
 
-# Introduction
+## Introduction
  * Yet another slab allocator in golang
  * Desgin for reducing GC delay by reducing number of objects 
 
-# Usage
+## Usage
     // Create slab pool
     slabPool, err := CreateSlabPool(4096, 128, 1024, 2)
 
@@ -19,8 +20,8 @@
     slabPool.IncRef(chunk2)
     slabPool.DecRef(chunk2)
 
-# Limitation
+## Limitation
  * Must Not append() on chunk allocated.
 
-# License
+## License
 Apache License Version 2.0
