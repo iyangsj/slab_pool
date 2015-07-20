@@ -1,4 +1,8 @@
-# slab-pool - yet another slab allocator
+# slab-pool 
+
+# Introduction
+ * Yet another slab allocator in golang
+ * Desgin for reducing GC delay by reducing number of objects 
 
 # Usage
     // Create slab pool
