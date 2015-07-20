@@ -15,8 +15,12 @@
     slabPool.IncRef(chunk2)
     slabPool.DecRef(chunk2)
 
-# Author
-jeffyang (iyangsj@gmail.com)
+# Limitation
+ * Must Not append() on chunk allocated.
 
 # License
 Apache License Version 2.0
+
+# Author
+jeffyang (iyangsj@gmail.com)
+
