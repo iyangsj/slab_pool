@@ -1,4 +1,5 @@
 # slab-pool 
+[![Build Status](https://drone.io/github.com/jeffyang28/slab_pool/status.png)](https://drone.io/github.com/jeffyang28/slab_pool/latest)
 [![Coverage Status](https://coveralls.io/repos/jeffyang28/slab_pool/badge.svg?branch=master&service=github)](https://coveralls.io/github/jeffyang28/slab_pool?branch=master)
 
 ## Introduction
